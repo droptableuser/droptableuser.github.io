@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "SQL Oracle"
 date:   2016-03-08 21:30
 categories: security

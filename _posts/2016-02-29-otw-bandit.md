@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "overthewire.org - Bandit"
 date:   2016-02-29 22:30
 categories: wargame

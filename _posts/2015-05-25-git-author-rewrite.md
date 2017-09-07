@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "git rewrite author"
 date:   2015-05-25 18:00:00
 categories: git

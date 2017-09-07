@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "overthewire.org - Leviathan"
 date:   2016-03-04 22:05
 categories: wargame

@@ -17,16 +17,33 @@ title: ; drop table user;
 email: markus.scharitzer@mailbox.org
 description: > # this means to ignore newlines until "baseurl:"
   Security. Student. 8CB2 3C56 1BD4 74E5 FB91 8EF8 8B6F 9890 10F7 0975
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://droptableuser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: droptableuser
-github_username:  droptableuserorg
+signoff: "markus"
+share: false
+links: 
+  - name: Home
+    url: /
+    external: false
+  - name: About me
+    url: /about
+    external: false
 
+permalink: /posts/:title
+defaults:
+  - values:
+      layout: "default"
+#twitter_username: droptableuser
+#github:  droptableuser
+#author: 'Markus'
 # Build settings
-markdown: kramdown
-theme: jekyll-theme-hacker
-plugins:
-  - jekyll-feed
+#markdown: redcarpet
+#highlighter: pygments
+#permalink: pretty
+#paginate: 5
+#theme: jekyll-theme-hacker
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
