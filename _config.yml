@@ -24,7 +24,7 @@ github_username:  droptableuserorg
 
 # Build settings
 markdown: kramdown
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
