@@ -21,6 +21,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://droptableuser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 signoff: "markus"
 share: false
+remote_theme: heiswayi/thinkspace 
 links: 
   - name: Home
     url: /
@@ -44,6 +45,8 @@ defaults:
 #theme: jekyll-theme-hacker
 #plugins:
 #  - jekyll-feed
+plugins:
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
