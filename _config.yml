@@ -21,7 +21,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://droptableuser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 signoff: "markus"
 share: false
-remote_theme: streetturtle/jekyll-clean-dark 
+remote_theme: pages-themes/hacker 
 links: 
   - name: Home
     url: /
