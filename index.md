@@ -9,6 +9,7 @@ layout: default
       <time class="fr silver ttu">{{ post.date | date_to_string }} </time>
       {{ post.title }}
     </a>
+    <p>{{ post.content | strip_html | truncatewords: 20 }}</p>
   </li>
   {% endfor %}
 </ul>

@@ -1,8 +1,6 @@
 ---
+layout: default
 title: About
 permalink: /about/
 ---
-
-Long time experience as a Linux system administrator, but systemD made me move on to security as full time job. 
-
-Currently studying Information Management and Security. 
+Linux system administrator turned security professional. I like to play Capture the Flag contests and dabble on challenge sites. Open source enthusiast. Member of the [EFF](https://eff.org) and [C3W](https://c3wien.at).
