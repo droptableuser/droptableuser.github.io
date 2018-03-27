@@ -68,6 +68,15 @@ cd owasp-modsecurity-crs/
 cp crs-setup.conf.example crs-setup.conf
 vi /etc/apache2/mods-enabled/security2.conf 
 ```
+Remove host header IP warning
+```
+cd /etc/modsecurity/owasp-modsecurity-crs
+mkdir custom_rules
+vi custom_rules/modsecurity_crs_99_custom.conf
+```
+```
+SecRuleRemoveById 920350      
+```
 ```
 <IfModule security2_module>
         # Default Debian dir for modsecurity's persistent data
@@ -115,3 +124,4 @@ vi /etc/php/7.2/apache2/php.ini
 ```allow_url_include = on``` - Allows for Remote File Inclusions (RFI) [allow_url_include]
 ```allow_url_fopen = on``` - Allows for Remote File Inclusions (RFI) [allow_url_fopen]
 ```display_errors = on``` - I like to see stuff.
+
