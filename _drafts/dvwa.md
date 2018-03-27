@@ -68,15 +68,6 @@ cd owasp-modsecurity-crs/
 cp crs-setup.conf.example crs-setup.conf
 vi /etc/apache2/mods-enabled/security2.conf 
 ```
-Remove host header IP warning
-```
-cd /etc/modsecurity/owasp-modsecurity-crs
-mkdir custom_rules
-vi custom_rules/modsecurity_crs_99_custom.conf
-```
-```
-SecRuleRemoveById 920350      
-```
 ```
 <IfModule security2_module>
         # Default Debian dir for modsecurity's persistent data
@@ -93,6 +84,21 @@ SecRuleRemoveById 920350
         #IncludeOptional /usr/share/modsecurity-crs/owasp-crs.load
         SecDisableBackendCompression On
 </IfModule>
+```
+
+Remove host header IP warning
+```
+cd /etc/modsecurity/owasp-modsecurity-crs
+mkdir custom_rules
+vi custom_rules/modsecurity_crs_99_custom.conf
+```
+```
+SecRuleRemoveById 920350      
+```
+activate
+```
+cd activated_rules
+ln -s ../custom_rules/modsecurity_crs_99_custom.conf .
 ```
 ```
 cd /var
