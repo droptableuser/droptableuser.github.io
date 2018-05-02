@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:  '; drop table user; --
+title:  1'; drop table user; --
 email: markus.scharitzer@mailbox.org
 description: > # this means to ignore newlines until "baseurl:"
   Security. Student. 8CB2 3C56 1BD4 74E5 FB91 8EF8 8B6F 9890 10F7 0975
