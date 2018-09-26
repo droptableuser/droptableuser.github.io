@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/droptableuser
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://droptableuser.me
+  * I am droptableuser (https://keybase.io/droptableuser) on keybase.
+  * I have a public key ASBixk0Wpqa4XdeTC8eDF-N6_HNX7eiejvHnFC5joQSHIQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012051edf24ee03fc099871fc64000ecf11a70bb408a306ea7268bc87c3a6a8017e00a",
+      "host": "keybase.io",
+      "kid": "012062c64d16a6a6b85dd7930bc78317e37afc7357ede89e8ef1e7142e63a10487210a",
+      "uid": "856ccbca8c0ea0f31f14ab5af4751919",
+      "username": "droptableuser"
+    },
+    "merkle_root": {
+      "ctime": 1537974085,
+      "hash": "4af75dc736cb4e2a6362a7186b7295a472e3f16ad5b4f3cf13d8948a6024be370bba05d3a81e13ab72eca16e20e2a1d17a366078e4e75397ab9856ad17b7636d",
+      "hash_meta": "798a10fa9264cfdd4a23815862bfa34ee30dc614c78eea557d48e7db4a6eee61",
+      "seqno": 3694642
+    },
+    "service": {
+      "entropy": "BCVkZSwJwVH3JLU3SuBsmVTX",
+      "hostname": "droptableuser.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.2"
+  },
+  "ctime": 1537974100,
+  "expire_in": 504576000,
+  "prev": "cf350c0e858e10fa428823130b1d4d9d7167185894a9002cf53360ea896a4889",
+  "seqno": 28,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYsZNFqamuF3XkwvHgxfjevxzV+3ono7x5xQuY6EEhyEKp3BheWxvYWTESpcCHMQgzzUMDoWOEPpCiCMTCx1NnXFnGFiUqQAs9TNg6olqSInEIFlI0RYXyEdNr++/Skz+fP9oKaENrmlE+BIj93hV7+E9AgHCo3NpZ8RALygJhqVhuCmnmuBUbcDLTT0dG6z8biqcnOnTtDRDiF54PIxucU1uYzNsn3roieQmufAL4IUlffbGf24LbX0yDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILvYCeYH2LZe0kH3vV2tVGpKpU4yYc8xG/PblwxVk/y0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/droptableuser
+
+==================================================================
