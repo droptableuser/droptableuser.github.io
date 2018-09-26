@@ -35,8 +35,13 @@ permalink: /posts/:title
 defaults:
   - values:
       layout: "default"
-#twitter_username: droptableuser
-#github:  droptableuser
+
+      
+twitter:
+  username: droptableuser
+  card: summary
+  
+github:  droptableuser
 #author: 'Markus'
 # Build settings
 #markdown: redcarpet
