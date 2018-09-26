@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:  1'; drop table user; --
-email: markus.scharitzer@mailbox.org
+email: markus@droptableuser.me
 description: > # this means to ignore newlines until "baseurl:"
   Security. Student. 8CB2 3C56 1BD4 74E5 FB91 8EF8 8B6F 9890 10F7 0975
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://droptableuser.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://droptableuser.me" # the base hostname & protocol for your site, e.g. http://example.com
 signoff: "markus"
 share: false
 remote_theme: droptableuser/hacker 
@@ -37,10 +37,7 @@ defaults:
 
 include: [".well-known"]
       
-twitter:
-  username: droptableuser
-  card: summary
-  
+twitter: droptableuser
 github:  droptableuser
 #author: 'Markus'
 # Build settings
