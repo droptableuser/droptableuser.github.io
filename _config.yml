@@ -51,6 +51,7 @@ github:  droptableuser
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-gist
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
