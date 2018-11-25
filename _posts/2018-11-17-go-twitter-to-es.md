@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Indexing your liked tweets into ElasticSearch"
 date: "2018-11-17 20:20 +0100"
 categories: programming

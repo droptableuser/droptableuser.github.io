@@ -29,6 +29,10 @@ links:
   - name: About me
     url: /about
     external: false
+  - name: Talks
+    url: /talks/
+    external: false
+
 
 permalink: /posts/:title
 defaults:
@@ -39,15 +43,7 @@ include: [".well-known"]
       
 twitter: droptableuser
 github:  droptableuser
-#author: 'Markus'
-# Build settings
-#markdown: redcarpet
-#highlighter: pygments
-#permalink: pretty
-#paginate: 5
-#theme: jekyll-theme-hacker
-#plugins:
-#  - jekyll-feed
+
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
